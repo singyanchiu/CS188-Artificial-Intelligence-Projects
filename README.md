@@ -21,3 +21,8 @@ The most interesting part lies in the implementation of Q-Learning for a Pacman 
 ### Project 4 - Ghostbusters
 https://inst.eecs.berkeley.edu/~cs188/fa18/project4.html
 A relatively more straight forward project compared to the rest. Involves implementation of a discrete distribution class which represents the probability distribution of the ghost. Implemented update functions for time elapse and observation, by both exact evaluation and particle filtering.
+
+## minicontest1
+### Mini Contest 1
+https://inst.eecs.berkeley.edu/~cs188/fa18/minicontest1.html
+One of the more challenging projects in the course in which I've to implement multiple agents that "collaborate" with each other to clear all food in the maze. At first my score keep reducing to zero as my agents take too much time to compute the actions. After much experimentation I finally came up with strategies to minimize computation time - 1) Cache the sequence of actions returned by the search function; 2) Prioritize directions for each agent so they spread out; 3) Assign different food targets for each agent. A challenging but satisfying project!
