@@ -20,4 +20,4 @@ The most interesting part lies in the implementation of Q-Learning for a Pacman 
 ## ghostbusters
 ### Project 4 - Ghostbusters
 https://inst.eecs.berkeley.edu/~cs188/fa18/project4.html
-A relatively more straight forward project compared to the rest.
+A relatively more straight forward project compared to the rest. Involves implementation of a discrete distribution class which represents the probability distribution of the ghost. Implemented update functions for time elapse and observation, by both exact evaluation and particle filtering.
