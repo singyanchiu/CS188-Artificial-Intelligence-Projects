@@ -26,3 +26,8 @@ A relatively more straight forward project compared to the rest. Involves implem
 ### Mini Contest 1
 https://inst.eecs.berkeley.edu/~cs188/fa18/minicontest1.html
 One of the more challenging projects in the course in which I've to implement multiple agents that "collaborate" with each other to clear all food in the maze. At first my score keep reducing to zero as my agents take too much time to compute the actions. After much experimentation I finally came up with strategies to minimize computation time - 1) Cache the sequence of actions returned by the search function; 2) Prioritize directions for each agent so they spread out; 3) Assign different food targets for each agent. A challenging but satisfying project!
+
+## minicontest2
+### Mini Contest 2
+https://inst.eecs.berkeley.edu/~cs188/fa18/minicontest2.html
+By far the most challenging project of this course. I need to design evaluation functions that extract different feature vectors for different agents, eg. an offensive agent that sweep out all food in enemy's territory and a defensive agent that protects the food in its own ground. Also, the offensive agent need to be hard-coded to return home after it collected enough food.
