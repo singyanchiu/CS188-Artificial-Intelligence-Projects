@@ -1,10 +1,15 @@
 # CS188-Artificial-Intelligence-Projects
 Completed assignment projects in Python for UC Berkeley's CS188 Introduction to Artificial Intelligence course: https://inst.eecs.berkeley.edu/~cs188/fa18/
 
+## python_basics
+### Project 0 - Python Basics
+https://inst.eecs.berkeley.edu/~cs188/fa18/
+I had experience in object-oriented programming with JavaScript so this project is not that difficult. But it didn't take long for me to discover that the real challenge lied ahead.
+
 ## proj1-search-python3
 ### Project 1 - Search
 https://inst.eecs.berkeley.edu/~cs188/fa18/project1.html
-Implemented various search methods (Depth first search, Breadth first search, A* Search ,etc) for Pacman agent to find paths through mazes to reach a particular location and to collect food efficiently. Besides the implementation of various search method, I've also learnt more about class inheritance in Python.
+The biggest hurdle when I first tackle this project is to read the codes in multiple Python files and understand how they work together. I googled for tutorials and learnt about class inheritance, abstract functions as well as other Python skills. Then I implemented various search functions (Depth first search, Breadth first search, A* Search ,etc) for Pacman agent to find paths through mazes to reach a particular location and to collect food efficiently.
 
 ## multiagent
 ### Project 2 - Games
